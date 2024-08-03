@@ -1,9 +1,11 @@
-import BasicsOfMotion from "@/components/BasicsOfMotion";
+// import BasicsOfMotion from "@/components/BasicsOfMotion";
+import Gestures from "@/components/Gestures";
 
 export default function Home() {
   return (
     <div>
-      <BasicsOfMotion />
+      {/* <BasicsOfMotion /> */}
+      <Gestures />
     </div>
   );
 }
